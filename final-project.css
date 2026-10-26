@@ -46,9 +46,6 @@ margin: 5px;
     transition: all 0.5s ease;
 
 }
-body{
-     background:linear-gradient(to top ,#026594 , #61cafe ) ;
-}
 .btns a{
     text-decoration: none;
     color: white;
