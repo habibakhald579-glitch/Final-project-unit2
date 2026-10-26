@@ -46,6 +46,9 @@ margin: 5px;
     transition: all 0.5s ease;
 
 }
+body{
+     background:linear-gradient(to top ,#026594 , #61cafe ) ;
+}
 .btns a{
     text-decoration: none;
     color: white;
@@ -80,7 +83,7 @@ margin: 5px;
     border: 1px dashed rgb(172, 172, 249);
     margin-top: 20px;
     text-align: center;
-    background:linear-gradient(to top ,#026594 , #61cafe ) ;
+
 }
 .cards1{
     display: grid;
@@ -110,6 +113,7 @@ margin: 5px;
     padding: 50px;
     margin: 80px;
     transition: all 0.5s ease;
+    background-color: white;
 
 }
 #form:hover{
@@ -305,4 +309,67 @@ label{
 }
 .we h3{
     margin-top: 40px;
+}
+@media (max-width: 768px) {
+    .nav{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #main{
+        padding: 20px;
+    }
+
+    .btns{
+        justify-content: center;
+    }
+
+    .cards1{
+        grid-template-columns: 1fr;
+    }
+
+    .About{
+        grid-template-columns: 1fr;
+    }
+
+    .aboutcard{
+        margin-right: 0;
+        margin: 10px;
+    }
+
+    .foot{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #form{
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .foorm, .createaccount{
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .Login, .formimg{
+        width: 100%;
+        height: 300px;
+    }
+
+    .Login2, .formm{
+        width: 100%;
+    }
+
+    .Login2 button, .formm button{
+        width: 90%;
+    }
+
+    .password{
+        margin-left: 0;
+        display: block;
+        margin-top: 10px;
+    }
 }
